@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
-  spec.name         = "filters"
-  spec.version      = "1.0.6"
+  spec.name         = "nt_filters"
+  spec.version      = "1.0.7"
   spec.summary      = "Library that allows you to filter the signal with a given set of filters for a specified sampling rate."
   spec.homepage     = "https://gitlab.com/neurosdk2/neurosamples"
   spec.license      = { :type => 'MIT' } 
