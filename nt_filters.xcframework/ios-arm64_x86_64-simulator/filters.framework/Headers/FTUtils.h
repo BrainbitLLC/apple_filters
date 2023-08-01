@@ -1,16 +1,14 @@
 //
-//  NTUtils.h
-//  neurosdk
+//  FTUtils.h
+//  filters
 //
 //  Created by Aseatari on 06.09.2022.
 //
 
-#ifndef NTUtils_h
-#define NTUtils_h
+#ifndef FTUtils_h
+#define FTUtils_h
 
-extern "C" {
-    #include "f_types.h"
-}
+#include "f_types.h"
 
 @interface FTUtils : NSObject
 
@@ -18,4 +16,4 @@ extern "C" {
 
 @end
 
-#endif /* NTUtils_h */
+#endif /* FTUtils_h */
