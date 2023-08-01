@@ -8,6 +8,6 @@ Pod::Spec.new do |spec|
   spec.ios.deployment_target = "12.0"
   spec.osx.deployment_target = "10.14"
   spec.source       = { :git => "https://github.com/BrainbitLLC/apple_filters.git", :tag => "#{spec.version}" }
-  spec.osx.vendored_frameworks = 'nt_filters.xcframework'
-  spec.ios.vendored_frameworks = 'nt_filters.xcframework'
+  spec.osx.vendored_frameworks = 'filters.xcframework'
+  spec.ios.vendored_frameworks = 'filters.xcframework'
 end
